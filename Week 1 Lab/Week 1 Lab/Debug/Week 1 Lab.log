@@ -1,5 +1,0 @@
-﻿  main.cpp
-c:\users\svc-student\desktop\week 1 lab\week 1 lab\main.cpp(12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\svc-student\desktop\week 1 lab\week 1 lab\main.cpp(14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Week 1 Lab.vcxproj -> C:\Users\svc-student\Desktop\Week 1 Lab\Debug\Week 1 Lab.exe
-  Week 1 Lab.vcxproj -> C:\Users\svc-student\Desktop\Week 1 Lab\Debug\Week 1 Lab.pdb (Partial PDB)
