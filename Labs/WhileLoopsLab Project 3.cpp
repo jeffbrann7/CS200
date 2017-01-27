@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int counter = 0;
+
+	while (counter <= 20)
+	{
+		cout << counter << " ";
+		counter = counter + 5;
+	}
+	
+	cout << endl << endl << "Done!";
+	
+	while (true) {}
+	return 0;
+}
