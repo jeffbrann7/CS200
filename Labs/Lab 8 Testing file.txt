@@ -1,0 +1,57 @@
+Average: float input1 = 2, input2 = 3, input3 = 1;
+	int expectedOutput = 2;
+	int actualOutput = Average(input1, input2, input3);
+	if (expectedOutput != actualOutput)
+	{
+		cout << "Fail for: " << input1 << ", " << input2 << ", " << input3 << endl;
+	}
+	else
+	{
+		cout << "Pass for: " << input1 << ", " << input2 << ", " << input3 << endl;
+	}
+
+The Average function was initially: a + b + c / 3 which is incorrect because only "c" was being divided by 3.
+the correct version is (a + b + c) / 3 
+
+Max: int input1 = 1, input2 = 2, input3 = 3;
+	int expectedOutput = 3;
+	int actualOutput = Max(input1, input2, input3);
+		if (expectedOutput != actualOutput)
+		{
+			cout << "Fail for: " << input1 << ", " << input2 << ", " << input3 << endl;
+		}
+		else
+		{
+			cout << "Pass for: " << input1 << ", " << input2 << ", " << input3 << endl;
+		}
+
+The Max function was only accounting for int b being greater than int a, and if that wasn't true it would return c. It wasn't accounting for if int a was greater than either one of them.
+
+Factorial: int input1 = 5;
+	int expectedOutput = 120;
+	int actualOutput = Factorial(input1);
+	if (expectedOutput != actualOutput)
+	{
+		cout << "Fail for: " << input1 << endl;
+	}
+	else
+	{
+		cout << "Pass for: " << input1 << endl;
+	}
+
+The Factorial was including the multiplication of your initial number by itself, so 5*5 instead of 5*4 and so on.
+
+
+FormatName: string input1 = "Kyle", input2 = "Walker";
+	string expectedOutput = "Walker, Kyle";
+	string actualOutput = FormatName(input1, input2);
+	if (expectedOutput != actualOutput)
+	{
+		cout << "Fail for: " << input1 << ", " << input2 << ", " << expectedOutput << ", " << actualOutput << endl;
+	}
+	else
+	{
+		cout << "Pass for: " << input1 << ", " << input2 << endl;
+	}
+
+The FormatName was wrong because it wasn't adding a space after the comma. It was "," instead of ", ". 
